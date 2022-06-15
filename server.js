@@ -23,9 +23,6 @@ const server = http.createServer( (req, res)=>{
       readStream.pipe(res)
     }
 
-
-
-
 } )
 server.listen(8080, "127.0.0.1")
 
